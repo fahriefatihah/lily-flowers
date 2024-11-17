@@ -1281,7 +1281,7 @@
 
   <body class="not-loaded">
     <h1 class="title">Lily's Flower</h1>
-    <button class="reloadBtn" onclick="bloomFlower()">Anjay Mekar</button>
+    <button class="reloadBtn" onclick="bloomFlower()">Make it Grow</button>
     <button class="bonusBtn" onclick="showBonusImage()">Bonus</button>
     <div class="night"></div>
     <div class="flowers">
@@ -1599,7 +1599,7 @@
       function bloomFlower() {
           if (document.body.classList.contains('not-loaded')) {
               document.body.classList.remove("not-loaded");
-              document.querySelector('.reloadBtn').textContent = 'Cubo Lagi';
+              document.querySelector('.reloadBtn').textContent = 'grow again';
           } else {
             location.reload();
           }  
